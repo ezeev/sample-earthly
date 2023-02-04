@@ -27,17 +27,4 @@ docker run -it --rm \
 - [ ] Determine when ci-earthly.yml should push production images to the registry, and update it accordingly.
 - [ ] Bonus- Add Semantic Versioning
 
-## Phase 3 - Discussion
-
-Assume something similar to what you just built is used in production.
-
-1. What are some security vulnerabilities?
-2. What are some potential issues with this system, in relation to Devops and quality control?
-3. Are there other ways you see Earthly being used in a DevOps pipeline? In what ways should it not be used?
-4. (Retrospective) How difficult was this exercise in effort & time? What parts of it did you enjoy? What parts did you not enjoy or need improvement?
-
-You can add your answers for these to the readme here:
-
-### Discussion Answers
-
 ...
