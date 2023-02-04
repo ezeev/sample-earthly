@@ -1,6 +1,5 @@
 ## Phase 1 - Tests
 
-- [ ] Clone (Do not fork) this repo to a private repo. Your work is precious, don’t let others cheat.
 - [ ] Set up Earthly to run `yarn test`
 - [ ] Create a Github action `ci-earthly.yml` that runs the earthly command above for all Pull Requests
 - [ ] Make a new Pull Request against `main` to demonstrate that Earthly is run successfully in Github Actions.
@@ -26,5 +25,3 @@ docker run -it --rm \
       Update the Earthfile to prevent pushing images unless all tests pass. You will need to modify the tests to pass
 - [ ] Determine when ci-earthly.yml should push production images to the registry, and update it accordingly.
 - [ ] Bonus- Add Semantic Versioning
-
-...
