@@ -24,4 +24,3 @@ docker run -it --rm \
 - [ ] Test it by pushing the image to GHCR using the Earthly CLI. Don’t forget you must first authenticate with the registry
       Update the Earthfile to prevent pushing images unless all tests pass. You will need to modify the tests to pass
 - [ ] Determine when ci-earthly.yml should push production images to the registry, and update it accordingly.
-- [ ] Bonus- Add Semantic Versioning
