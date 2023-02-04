@@ -30,6 +30,13 @@ FROM node:16
 WORKDIR /app 
 
 
+# NOTE: To run any stage of the earthfile run:
+# earthly +<name of stage>
+# example: earthly +docker 
+#
+# Docker images will not be pushed to Dockerhub unless you run Earthly with the "--push" flag
+# See docs regarding the push flag here: https://docs.earthly.dev/basics/part-2-outputs
+
 # The deps target will prepare a layer that contains everything we need. 
 deps:
   COPY package.json yarn.lock .env ./ 
